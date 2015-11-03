@@ -1,0 +1,219 @@
+<html class="skrollr skrollr-desktop"><head>
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <title>Tech Miami</title>
+
+  <!-- Materialize -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <!-- Skrollr styling
+  <link href="fixed-positioning.css" rel="stylesheet" type="text/css">
+  <link href="main.css" rel="stylesheet" type="text/css">
+  -->
+  <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<!---->
+
+
+<!-- Content -->
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar-fixed" data-0="opacity:0" data-500="opacity:1">
+    <nav class="transparent" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="/" class="brand-logo">
+          <img src="images/techMiamiLogoISOTransparent.png" />
+        </a>
+        <a href="#" data-activates="menu" class="dropdown-button right">
+          <i class="material-icons">menu</i>
+        </a>
+        <ul id="menu" class="dropdown-content grey-text">
+          <li><a href="#modal1" class="modal-trigger">Contact</a></li>
+        </ul>
+        <ul class="nav-menu right">
+          <a href="http://twitter.com/tech__miami">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div id="contain-skrollr">
+    <div id="bg1"  data-0="background-position:center 0; opacity:1" data-5000="opacity:1; background-position:center -750px" data-5500="background-position:center -1000px; opacity:0"></div>
+    <div id="why" class="center white-text" data-0="opacity:1" data-8000="opacity:1" data-8250="opacity:0">
+      <div class="section container" data-0="opacity:1;top:30%;" data-500="opacity:0;top:0;">
+        <h1 class="thin">Have you heard of the new city for Entrepreneurs?</h1>
+      </div>
+      <div class="section" data-500="opacity:0;top:100%;" data-1000="opacity:1;top:30%;" data-1500="opacity:1;top:30%;" data-2000="opacity:0;top:0;">
+        <h1 class="thin">The one with the highest Startup Density</h1>
+        <p class="right"><a href="http://www.kauffman.org/microsites/kauffman-index/rankings/metropolitan-area" target="_blank">(Kauffman Index)</a></p>
+      </div>
+      <div class="section" data-2000="opacity:0;top:100%;" data-2500="opacity:1;top:30%;" data-3000="opacity:1;top:30%;" data-3500="opacity:0;top:0;">
+        <h1 class="thin">And the greatest foreign born population</h1>
+      </div>
+      <div class="section" data-3500="opacity:0;top:100%;" data-4000="opacity:1;top:30%;" data-4500="opacity:1;top:30%;" data-5000="opacity:0;top:0;">
+        <h1 class="thin">America's gateway to the world</h1>
+      </div>
+      <div id="get-in" class="section" data-5000="opacity:0;top:100%;" data-5500="opacity:1;top:15%;" >
+        <h1 class="thin">Want to get into the new Miami?</h1>
+      </div>
+      <div id="dont-know-how" class="section" data-6000="opacity:0;top:100%;" data-6500="opacity:1;top:30%;">
+        <h1 class="thin">Don't know how?</h1>
+      </div>
+      <div id="we-can-help" class="section" data-7000="opacity:0;top:100%;" data-7500="opacity:1;top:45%;">
+        <h1 class="bold">We can help.</h1>
+      </div>
+    </div>
+
+    <div id="how" class="container" data-8250="opacity:0" data-8500="opacity:1">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="images/haggman.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>Meet the Movers and Shakers</h3>
+            </div>
+          </li>
+          <li>
+            <img src="images/crowd.jpg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>Have A Story To Tell?</h3>
+              <h5 class="light">We've got a room ready to listen.</h5>
+            </div>
+          </li>
+          <li>
+            <img class="responsive-img" src="images/summit.jpg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3>Innovate Like a Local</h3>
+              <h5 class="light grey-text text-lighten-3">We go to the entrepreneur in the natural environment.</h5>
+            </div>
+          </li>
+          <li>
+            <img class="responsive-img" src="images/global-innovation.jpg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>Building Inclusive Ecosystems</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Call to Action -->
+      <div id="engage" class="center">
+
+      <!-- Learn More -->
+        <a href="#modal1" class="modal-trigger waves-effect waves-light btn-large">Learn More</a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+      <!-- Modal -->
+      <div id="modal1" class="modal modal-fixed-footer">
+        <div class="modal-content">
+          <div class="row">
+            <div class="col s12">
+
+              <form id="contactForm" method="post" action="contact/jquery/contact-form.php" class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="form-name" name="form-name" type="text" required="">
+                    <label for="form_name">Name</label>
+                  </div>
+                  <div class="input-field col s6">
+                    <input id="form-email" name="form-email" type="email" class="validate" required="">
+                    <label for="form-email">E-Mail</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="form-assunto" name="form-assunto" type="text">
+                    <label for="form_assunto">Subject</label>
+                  </div>
+                </div>
+                <textarea class="materialize-textarea" placeholder="Your Message" required="" id="form-mensagem" name="form-mensagem"></textarea>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="mdi-content-send right"></i>
+                </button>
+              </form>
+              
+            </div>
+          </div> 
+        </div>
+
+        <div class="modal-footer">
+          <a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">Close</a>
+          <a id="clearForm" href="#!" class="waves-effect waves-light btn-flat">Clear</a>
+        </div>
+      </div>
+
+
+<!-- Footer -->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+<script src="http://malsup.github.com/jquery.form.js"></script>
+<script type="text/javascript" src="skrollr.min.js"></script>
+<!--[if lt IE 9]>
+<script type="text/javascript" src="skrollr.ie.min.js"></script>
+<![endif]-->
+
+<script type="text/javascript">
+  var s = skrollr.init({
+    edgeStrategy: 'set',
+    easing: {
+      WTF: Math.random,
+      inverted: function(p) {
+        return 1-p;
+      }
+    }
+  });
+  $(document).ready(function(){
+
+    // Init modal
+    $('.modal-trigger').leanModal({
+      dismissable: true
+    });
+
+    // Slider work
+    var startSlider = function() {
+    $('.slider').slider({
+      full_width: true,
+      indicators: false
+    });
+    $('.slider').css('height','100%');
+    $('.slider ul').css('height','auto');}
+    startSlider();
+    /*Materialize.scrollFire([
+      {selector: '.slider', offset:8250, callback: startSlider()}
+    ]);*/
+
+    // Skroller mobile
+    if (window.innerWidth < 850) {
+      $('#get-in.section').attr('data-5500', 'opacity:1;top:2%');
+      $('#dont-know-how.section').attr('data-6500', 'opacity:1;top:40%');
+      $('#we-can-help.section').attr('data-7500', 'opacity:1;top:65%');
+      s.refresh();
+    }
+
+    // Contact Form
+    $('#contactForm').ajaxForm(function(msg){
+      alert(msg);
+/*      success: function() {
+        alert('kthxbai'); },
+      error: function () {
+        alert ('ERROR!'); }
+*/    });
+
+    $('#clearForm').on('click', function() {
+      $('#contactForm').clearForm();
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+}
+
+nav {
+  box-shadow: none;
+  padding-right: 50px;
+}
+
+.nav-wrapper.container {
+  width: 90%;
+}
+
+a.brand-logo img {
+  max-height: 74px;
+  padding: 5px;
+}
+
+.dropdown-content {
+    font-size: 1.2rem;
+    display: block;
+    padding: 1rem 1rem; 
+    min-width: 130px;
+    margin: 5px;
+}
+
+#contain-skrollr {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#bg1 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-image: url(images/cityline-lg-bg.png);
+  background-repeat: no-repeat;
+}
+
+#why .section {
+  position: absolute;
+  width: 100%;
+}
+
+#how {
+  max-width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+#how #engage {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  z-index: 2;
+}
+/*
+.lean-overlay {
+  top: auto;
+  height: 0;
+}
+*/
+#how #engage a {
+  margin: 20px;
+}
+
+.slides h3, .slides h5 {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}

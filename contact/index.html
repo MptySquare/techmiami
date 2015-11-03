@@ -1,0 +1,478 @@
+<html>
+<head>
+  <link rel="stylesheet" href="materialize/css/materialize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/fmmbihdblkhgghdlcomeonnegmlckkbg">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+</head>
+<body>
+  <nav id="top-nav" role="navigation">
+    <div class="nav-wrapper">
+      <ul class="right">
+        <li><a href="http://qlooer.com/user/login/0/">Login</a></li>
+        <li><a href="http://qlooer.com/user/register/0/">Sign Up</a></li>
+        <li><a href="#find-friends">Find Friends</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Top Carousel -->
+  <div class="section no-pad">
+    <div class="row" style="margin-bottom:0">
+      <div class="slider">
+        <ul class="slides">
+          <li>
+            <img class="img-bg" src="./img/headers/present.jpg">
+          </li><li>
+            <img class="img-bg" style="background-position:center -100" src="./img/headers/girl-with-dino.jpg">
+          </li><li>
+            <img class="img-bg" style="background-position:center -100" src="./img/headers/teacher-and-kids.jpg">
+          </li><li>
+            <img class="img-bg" src="./img/headers/college-students.jpg">
+          </li>
+        </ul>
+      </div>
+    </div>
+      <div class="row center white-text" id="caption">
+        <div class="col s8 offset-s2 m6 offset-m3 l4 offset-l7">
+        <a id="logo" href="/">
+          <img class="responsive-img" src="./img/logo_full.svg">
+        </a>
+        <p class="flow-text">
+          Help others make you happy with Qlooer (cluer).
+          Share clues of what you really want or need and let others do the shopping.
+        </p>
+        <a class="waves-effect waves-light btn-large signup" href="http://qlooer.com/user/register/0/">SIGN UP NOW</a>
+        <p class="its-free">It's Free</p>
+        </div>
+      </div>
+
+    <!-- Features -->
+    <div class="row center" id="features">
+      <div class="col s12 m4 featurette">
+        <div class="row">
+          <img class="responsive-img" src="./img/icons/qloo-it.png">
+        </div>
+        <h5>Add a Qloo (Clue)</h5>
+        <p>Create your own from any website or uploading a photo</p>
+      </div>
+  
+      <div class="col s12 m4 featurette second">
+        <div class="row">
+          <img class="responsive-img" src="./img/icons/create-list.png">
+        </div>
+        <h5>Create a List</h5>
+        <p>Create a new list or select from the dropdown</p>
+      </div>
+  
+      <div class="col s12 m4 featurette">
+        <div class="row">
+          <img class="responsive-img" src="./img/icons/share.png">
+        </div>
+        <h5>Share List</h5>
+        <p>Share with 1-click and invite others to share their clues</p>
+      </div>
+    </div>
+
+  </div> <!-- End of top section -->
+
+  <!-- Value Proposition -->
+  <div id="value-proposition-wrapper">
+  <div class="section container row center" id="value-proposition">
+    <div class="col s12 m8 offset-m2 proposition">
+      <p><b>Teachers</b>, <b>Kids</b>, and new <b>College students</b> are among those getting gifts through Qlooer (cluer). We close the information gap between gift giving and receiver.</p>
+      <h5>Free, Easy, and Fun!</h5>
+    </div>
+
+    <div class="row proposition">
+      <img class="col s12 responsive-img" src="./img/value-proposition.png">
+    </div>
+
+    <div class="col s12 l10 offset-l1 proposition">
+      <h5>Help Others Make You Happy</h5>
+      <p>With Qlooer (cluer) you can share clues of the things you really want so that others can do the shopping for you. Sign up now to start your own list, whether it's for school supplies, that fancy handbag, or even gifts for your new dorm. Do not be afraid to ask for what you really want. Help others help you.</p>
+      <a class="waves-effect waves-light btn-large signup" href="http://qlooer.com/user/register/0/">SIGN UP NOW</a>
+      <p class="its-free" style="font-size:1.2rem"><b>It's Free</b></p>
+    </div>
+  </div>
+  </div>
+
+  <!-- Qlooer Button and Find Friends -->
+  <div class="section row center white-text" id="find-friends">
+    <div class="col s12 m6">
+      <h5>Get the Qlooer Button</h5>
+      <div class="container row">
+        <div class="col s4 offset-s2 right-align">
+          <img src="img/browser_btn.png">
+        </div>
+        <div class="col s4 left-align truncate">
+          <p><a href="#" id="browser-extension">Download Now</a></p>
+          <p><a href="http://qlooer.com/page/pinit">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col s12 m6" style="border-left: solid #e37b0e;">
+      <h5>Find Your Friends &amp; Their Clues</h5>
+      <form action="http://qlooer.com/search/user/" method="GET">
+        <div class="input-field col s8 offset-s2" id="friend-search">
+          <img src="img/find-friends-icon.png" class="prefix">
+          <input type="text" name="query" placeholder="Find People &amp; Qloos" class="text-center">
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Testimonials -->
+  <div class="section row">
+    <div class="col s1 center">
+    <!--  <a  href="#" id="prev-testimonial">prev</a> -->
+    </div>
+    <div class="slider" id="testimonials">
+      <ul class="slides">
+
+        <!-- First testimonials -->
+        <li>
+          <div class="row">
+
+            <div class="col l5 offset-l1 center">
+              <div class="row">
+                <img class="responsive-img circle" src="img/mauro.jpg">
+              </div>
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">I didn't realize how much of a hassle finding someone a gift was until Qlooer made it easy.</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Mauro Perez</p>
+                <p class="flow-text title">Working Professional</p>
+              </div>
+            </div>
+            
+            <div class="col l5 center">
+              <div class="row">
+                <img class="responsive-img circle" src="img/luna.jpg">
+              </div>
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">It really works! After qlooing something I wanted, a friend got it as a surprise. It's so much fun!</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Daniela Luna</p>
+                <p class="flow-text title">Enrepreneur</p>
+              </div>
+            </div>
+            
+          </div>
+        </li>
+        <li>
+        </li>
+        <li>
+          <div class="row quotes valign-wrapper">
+
+            <div class="col l5 offset-l1 valign center">
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">The best gift is that we want but we feel guilty about buying it.</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Dr. Dan Ariely</p>
+                <p class="flow-text title">Duke University</p>
+              </div>
+            </div>
+            
+            <div class="col l5 valign center">
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">It's the thought that counts... but only if the gift is disappointing.</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Dr. Nicholas Epley</p>
+                <p class="flow-text title">University of Chicago</p>
+              </div>
+            </div>
+            
+          </div>
+        </li>
+        <li>
+        </li>
+        <li>
+          <div class="row quotes valign-wrapper">
+
+            <div class="col l5 offset-l1 center">
+              <div class="row">
+                <img class="responsive-img circle" src="img/sofia.jpg">
+              </div>
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">Qlooer was great to let all my family know what I needed when I moved into my college dorm</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Sophia</p>
+                <p class="flow-text title">College Student</p>
+              </div>
+            </div>
+            
+            <div class="col l5 center valign">
+			  <div class="row">
+                <img class="responsive-img circle" src="img/rachel.jpg">
+              </div>
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">Now parents know how to help their kids in the classroom, and the list gets updated in real time!</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Rachel</p>
+                <p class="flow-text title">Elementary School Teacher</p>
+              </div>
+            </div>
+            
+          </div>
+        </li>
+        <li>
+        </li>
+        <li>
+          <div class="row quotes valign-wrapper">
+
+            <div class="col l5 offset-l1 valign center">
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">Rather than overthinking, givers might try a simple solution: 'Ask!'</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Dr. Mary Steffel</p>
+                <p class="flow-text title">Northeasten University</p>
+              </div>
+            </div>
+            
+            <div class="col l5 valign center">
+              <div class="row testim">
+                <img class="left quote-mark" src="img/left-quote-mark.png" />
+                <p class="flow-text quote left-align">Be careful what you wish for!</p>
+                <img class="right quote-mark" src="img/right-quote-mark.png" />
+                <p class="flow-text name">Anonymous</p>
+              </div>
+            </div>
+            
+          </div>
+        </li>
+        <li>
+        </li>
+      </ul>
+    </div>
+    <div class="col s1 center">
+    <!--  <a  href="#" id="next-testimonial">next</a> -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="page-footer grey lighten-5">
+  <nav class="transparent">
+    <div class="nav-wrapper container" id="footer-nav">
+      <ul>
+        <li><a href="http://qlooer.com/page/about" target="_blank">About</a></li>
+        <li><a class="modal-trigger" id="contact-button" href="#contact-modal">Contact</a></li>
+<!-- Modal Trigger mailto:qlooermaster@qlooer.com?Subject=Qlooer-->
+
+  <!-- Modal Structure -->
+  <div id="download-msg" class="modal modal-fixed-footer">
+    <div class="container grey-text">
+      <div class="row">
+        <h5>contact</h5>
+        <h6>get in touch with me</h6>
+        <hr>
+      </div>
+    </div>
+  </div>
+
+  <div id="safari-extension" class="modal">
+    <div class="container grey-text">
+      <div class="row">
+          <ul class="collection with-header">
+            <li class="collection-header">
+              <h5>Install Qlooer Button</h5>
+            </li>
+            <li class="collection-item">Open the file "Qlooer.safariextz" in your Downloads folder.</li>
+            <li class="collection-item">If you need help, click the Contact link at the bottom of the page.</li>
+          </ul>
+      </div>
+    </div>
+  </div>
+  <div id="IEModal" class="modal modal-fixed-footer">
+    <div class="container grey-text">
+      <div class="row">
+        <p class="flow-text center">Sorry, but an extension for Internet Explorer has not been developed yet. Try another browser.</p>
+      </div>
+    </div>
+  </div>
+  <div id="contact-modal" class="modal modal-fixed-footer">
+    <div class="container contact grey-text">
+      <div class="row">
+        <h5>contact</h5>
+        <hr></div>
+        <div class="row">
+          <div class="col s12">
+            <div class="row">
+         <form action="contact/jquery/contact-form.php" id="contact-form" class="form-horizontal" role="form" method="post" target="_blank">
+            <div class="form-group">
+                <label for="name" class="col-lg-2 control-label">Name</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Name" required="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email" class="col-lg-2 control-label">Email</label>
+                <div class="col-lg-10">
+                    <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email" required="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="assunto" class="col-lg-2 control-label">Subject</label>
+                <div class="col-lg-10">
+                    <input type="text" class="form-control" id="form-assunto" name="form-assunto" placeholder="Subject" required="">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mensagem" class="col-lg-2 control-label">Message</label>
+                <div class="col-lg-10">
+                    <textarea class="form-control" rows="3" id="form-mensagem" name="form-mensagem" placeholder="Message" required=""></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-lg-offset-2 col-lg-10">
+                    <button type="submit" class="btn btn-default">Send</button>
+                </div>
+            </div>
+        </form>
+           <!-- 
+              <form action="contact/jquery/contact-form.php" class="col s12">
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="form-name" name="form-name" type="text">
+                    <label for="form_name">Name</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s12">
+                    <input id="form-email" name="form-email" type="email" class="validate">
+                    <label for="form-email">E-Mail</label>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="input-field col s6">
+                    <input id="form-assunto" name="form-assunto" type="text">
+                    <label for="form_assunto">Subject</label>
+                  </div>
+                </div>
+                <textarea class="materialize-textarea" placeholder="Your Message" required="" id="form-mensagem" name="form-mensagem"></textarea>
+                <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+                  <i class="mdi-content-send right"></i>
+                </button>
+              </form>-->
+            </div>
+          </div>
+          <!--<div class="col s12 m6 l6 contact-holder">
+            <h6 class="mdi-action-home">Address</h6>
+            <p>Nr. 6, 21 Awesome Street, London, UK</p>
+            <h6 class="mdi-hardware-phone-android">Phone Number</h6>
+            <p>+91 9912776151</p>
+            <h6 class="mdi-action-open-in-browser">Website</h6>
+            <p>qnimate.com</p>
+          </div>-->
+        </div>
+      </div>
+  </div>
+        <li><a href="http://qlooer.com/page/terms" target="_blank">Terms & Privacy</a></li>
+      </ul>
+      <ul class="right">
+        <li><a href="https://www.facebook.com/pages/Qlooer/204246289621280"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://twitter.com/qlooermaster"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://instagram.com/qlooer/"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav class="transparent">
+  <div class="nav-wrapper footer-copyright">
+    <div class="container">
+      <span>Copyright 2014 Qlooer LLC &copy; All rights reserved</span>
+    </div>
+    </div>
+  </nav>
+
+  </footer>
+
+</body>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="materialize/js/materialize.js"></script>
+<script type="text/javascript" src="contact/jquery/assets/js/contact-form.js"></script>
+<script>
+  $(document).ready(function(){
+
+  // Modal init
+
+  $('.modal-trigger').leanModal();
+
+
+  // Slider ini
+   
+    $('.slider').slider({
+      full_width: true,
+      height: 409,
+      indicators: false
+    });
+    $('#testimonials.slider').slider({
+      height: 500,
+      indicators: false
+    });
+/*    $('#prev-testimonial').click(function(e) {
+      e.preventDefault();
+      $('#testimonials.slider').moveToSlide(0);
+      console.log('stopped testimonial slider');
+    });
+    $('#next-testimonial').click(function(e) {
+      e.preventDefault();
+      $('#testimonials.slider').slider().moveToSlide(1);
+      console.log('stopped testimonial slider');
+    });*/
+  }); 
+</script>
+
+<!-- Browser Extension -->
+<script>
+  if (false){//navigator.userAgent.indexOf('Chrome') != -1) {
+    $('#browser-extension').attr({
+      onclick: "chrome.webstore.install()", 
+      id: "install-button"
+    });
+  } else if (navigator.userAgent.indexOf('Firefox') != -1) {
+    $('#browser-extension').attr({
+      href: "http://addons.mozilla.org/firefox/downloads/file/321866/qloo_it-0.1.2-fx.xpi",
+      iconURL: "https://addons.cdn.mozilla.net/user-media/addon_icons/620/620138-64.png",
+      hash: "sha256:4ea1d0c514d92e3699324865509ec7ed773494b1b93fab0d2de03887d84dcd64",
+      onclick: "return install(event);"
+    });
+  } else if (navigator.userAgent.indexOf('Safari') != -1) {
+    $('#browser-extension').attr({'href': 'Qlooer.safariextz'}).on('click', function (e) {
+      $('#safari-extension').openModal();
+      return;
+    });
+  } else if (navigator.userAgent.indexOf('MSIE') != -1 || navigator.userAgent.indexOf('Trident') != -1) {
+    $('#browser-extension').on('click', function(e) {
+      $('#IEModal').openModal();
+      return;
+    });
+  } else {
+    alert('Currently, there is no Qlooer extension for your browser. Send us a message to find out more.');
+  }
+
+  function install (aEvent)
+  {
+    for (var a = aEvent.target; a.href === undefined;) a = a.parentNode;
+    var params = {
+      "Qlooer": { URL: aEvent.target.href,
+               IconURL: aEvent.target.getAttribute("iconURL"),
+               Hash: aEvent.target.getAttribute("hash"),
+               toString: function () { return this.URL; }
+      }
+    };
+    InstallTrigger.install(params);
+  
+    return false;
+  }
+</script>
+</html>
