@@ -3,12 +3,12 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  <title>Tech Miami</title>
+  <title>TECH Miami</title>
 
   <!-- Materialize -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/css/materialize.min.css">
   <!-- Skrollr styling
   <link href="fixed-positioning.css" rel="stylesheet" type="text/css">
   <link href="main.css" rel="stylesheet" type="text/css">
@@ -19,13 +19,13 @@
 
 
 <!-- Content -->
-<body>
+<body data-0="opacity:1" data-9500="opacity:1">
 
   <!-- Navbar -->
   <div class="navbar-fixed" data-0="opacity:0" data-500="opacity:1">
     <nav class="transparent" role="navigation">
       <div class="nav-wrapper container">
-        <a id="logo-container" href="/" class="brand-logo">
+        <a id="logo-container" href="/">
           <img src="images/techMiamiLogoTransparent_1.png" />
         </a>
         <a href="#" data-activates="menu" class="dropdown-button right">
@@ -58,13 +58,13 @@
       <div class="section" data-3500="opacity:0;top:100%;" data-4000="opacity:1;top:30%;" data-4500="opacity:1;top:30%;" data-5000="opacity:0;top:0;">
               <h1 class="thin">The <b>P</b>hilanthropic sector supports innovation</h1>
       </div>
-      <div id="get-in" class="section" data-5000="opacity:0;top:100%;" data-5500="opacity:1;top:15%;" >
-        <h1 class="thin">TECH Miami works with, not for P3</h1>
+      <div class="section" data-5000="opacity:0;top:100%;" data-5500="opacity:1;top:15%;" >
+              <h1 class="thin">TECH Miami works with, not for, P3</h1>
       </div>
-      <div id="dont-know-how" class="section" data-6000="opacity:0;top:100%;" data-6500="opacity:1;top:30%;">
-        <h1 class="thin">to create equal opportunity in the innovation economy</h1>
+      <div class="section" data-6000="opacity:0;top:100%;" data-6500="opacity:1;top:30%;">
+              <h1 class="thin">to create equal opportunity in the innovation economy</h1>
       </div>
-      <div id="we-can-help" class="section" data-7000="opacity:0;top:100%;" data-7500="opacity:1;top:50%;">
+      <div class="section" data-7000="opacity:0;top:100%;" data-7500="opacity:1;top:55%;">
               <h1 class="bold">Build something awesome with us</h1>
       </div>
     </div>
@@ -81,8 +81,8 @@
           <li>
             <img src="images/crowd.jpg"> <!-- random image -->
             <div class="caption center-align">
-              <h3>Have A Story To Tell?</h3>
-              <h5 class="light">We've got a room ready to listen.</h5>
+              <h3>We bring people together...</h3>
+              <h5 class="light">...to disrupt the conversation on Technology, Entrepreneurship, and Capital in the new economy.</h5>
             </div>
           </li>
           <li>
@@ -95,7 +95,7 @@
           <li>
             <img class="responsive-img" src="images/global-innovation.jpg"> <!-- random image -->
             <div class="caption left-align">
-              <h3>Building Inclusive Ecosystems</h3>
+              <h3>Building inclusive ecosystems in urban communities</h3>
             </div>
           </li>
         </ul>
@@ -154,8 +154,8 @@
 
 
 <!-- Footer -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.1/js/materialize.min.js"></script>
 <script src="http://malsup.github.com/jquery.form.js"></script>
 <script type="text/javascript" src="skrollr.min.js"></script>
 <!--[if lt IE 9]>
@@ -193,12 +193,13 @@
     ]);*/
 
     // Skroller mobile
+    /* not needed anymore, but good reference just in case
     if (window.innerWidth < 850) {
       $('#get-in.section').attr('data-5500', 'opacity:1;top:2%');
       $('#dont-know-how.section').attr('data-6500', 'opacity:1;top:40%');
       $('#we-can-help.section').attr('data-7500', 'opacity:1;top:65%');
       s.refresh();
-    }
+    }*/
 
     // Contact Form
     $('#contactForm').ajaxForm(function(msg){

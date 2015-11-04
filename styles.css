@@ -1,19 +1,27 @@
+*,:before,:after {
+-moz-box-sizing:border-box;
+-webkit-box-sizing:border-box;
+box-sizing:border-box;
+-webkit-backface-visibility:hidden;
+}
+
 body {
   background-color: black;
 }
 
 nav {
   box-shadow: none;
-  padding-right: 50px;
+  padding-top: 15px;
 }
 
 .nav-wrapper.container {
   width: 90%;
 }
 
-a.brand-logo img {
-  max-height: 100px;
+#logo-container img {
+  max-height: 80px;
   padding: 5px;
+  margin-top: -15px;
 }
 
 .dropdown-content {
@@ -45,6 +53,13 @@ a.brand-logo img {
 #why .section {
   position: absolute;
   width: 100%;
+}
+
+@media only screen and (max-width: 660px) {
+  #why .section:nth-child(5) h1, #why .section:nth-child(6) h1, #why .section:nth-child(7) h1 {
+    margin: 1.46rem 0 1.168rem 0;
+    font-size: 2.92rem;
+  }
 }
 
 #how {
